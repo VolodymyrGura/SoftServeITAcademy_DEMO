@@ -32,7 +32,6 @@ namespace SoftServeITAcademy_DEMO
 
         [DataMember]
         private readonly Random random;
-        Random rand = new Random();
         [DataMember]
         private List<JewelryDecoration> jewelries;
         [DataMember]
@@ -47,8 +46,8 @@ namespace SoftServeITAcademy_DEMO
         public double Price { get; set; }
 
         public List<string> Jewelry { get; set; }
+
         public List<JewelryDecoration> Jewelries { get => jewelries; set => jewelries = value; }
-        public List<JewelryDecoration> Jewelries1 { get => jewelries; set => jewelries = value; }
 
         public JewelryDecoration()
         {
@@ -86,11 +85,11 @@ namespace SoftServeITAcademy_DEMO
             {
                 this.jewelries.Add(new JewelryDecoration
                 {
-                    Name = (NameJewelries)this.rand.Next(4),
-                    Metal = (Metals)this.rand.Next(5),
+                    Name = (NameJewelries)this.random.Next(4),
+                    Metal = (Metals)this.random.Next(5),
                     Weight = rand.Next(20),
                     //Price = this.Weight * (int)this.Metal
-                    Price = this.Weight * (int)(Metals)this.rand.Next(5)
+                    Price = this.Weight * (int)(Metals)this.random.Next(5)
                 });
 
                 Console.WriteLine($"Name {this.name} Metal {this.metal} Weight {this.weight} Price {this.price} ");
@@ -109,7 +108,6 @@ namespace SoftServeITAcademy_DEMO
 
         public void PrintJewelry(List<JewelryDecoration> jewelries)
         {
-
             foreach (var w in jewelries)
             {
                 w.Print();
@@ -120,5 +118,11 @@ namespace SoftServeITAcademy_DEMO
         {
             return this.name.CompareTo(other.name);
         }
+
+        public IEnumerable<JewelryDecoration> SortJewelryDecoration()
+        {
+            return this.jewelries.OrderBy(j => j.Name);
+        }
+       
     }
 }

@@ -6,126 +6,64 @@
   <Price>0</Price>
   <Jewelries>
     <JewelryDecoration>
-      <Name>Necklace</Name>
-      <Metal>Palladium</Metal>
-      <Weight>18</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
       <Name>Coulomb</Name>
-      <Metal>Copper</Metal>
-      <Weight>14</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Coulomb</Name>
-      <Metal>Platinum</Metal>
+      <Metal>Gold</Metal>
       <Weight>1</Weight>
       <Price>0</Price>
     </JewelryDecoration>
     <JewelryDecoration>
       <Name>Necklace</Name>
-      <Metal>Platinum</Metal>
+      <Metal>Copper</Metal>
+      <Weight>15</Weight>
+      <Price>0</Price>
+    </JewelryDecoration>
+    <JewelryDecoration>
+      <Name>Coulomb</Name>
+      <Metal>Silver</Metal>
+      <Weight>17</Weight>
+      <Price>0</Price>
+    </JewelryDecoration>
+    <JewelryDecoration>
+      <Name>Necklace</Name>
+      <Metal>Silver</Metal>
       <Weight>10</Weight>
       <Price>0</Price>
     </JewelryDecoration>
     <JewelryDecoration>
       <Name>Coulomb</Name>
-      <Metal>Silver</Metal>
-      <Weight>7</Weight>
+      <Metal>Copper</Metal>
+      <Weight>19</Weight>
+      <Price>0</Price>
+    </JewelryDecoration>
+    <JewelryDecoration>
+      <Name>Earrings</Name>
+      <Metal>Copper</Metal>
+      <Weight>8</Weight>
       <Price>0</Price>
     </JewelryDecoration>
     <JewelryDecoration>
       <Name>Coulomb</Name>
-      <Metal>Platinum</Metal>
-      <Weight>5</Weight>
+      <Metal>Gold</Metal>
+      <Weight>6</Weight>
       <Price>0</Price>
     </JewelryDecoration>
     <JewelryDecoration>
       <Name>Coulomb</Name>
-      <Metal>Palladium</Metal>
+      <Metal>Gold</Metal>
+      <Weight>2</Weight>
+      <Price>0</Price>
+    </JewelryDecoration>
+    <JewelryDecoration>
+      <Name>Necklace</Name>
+      <Metal>Copper</Metal>
       <Weight>14</Weight>
       <Price>0</Price>
     </JewelryDecoration>
     <JewelryDecoration>
       <Name>Coulomb</Name>
-      <Metal>Silver</Metal>
-      <Weight>13</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Coulomb</Name>
       <Metal>Copper</Metal>
-      <Weight>13</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Necklace</Name>
-      <Metal>Platinum</Metal>
-      <Weight>6</Weight>
+      <Weight>12</Weight>
       <Price>0</Price>
     </JewelryDecoration>
   </Jewelries>
-  <Jewelries1>
-    <JewelryDecoration>
-      <Name>Necklace</Name>
-      <Metal>Palladium</Metal>
-      <Weight>18</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Coulomb</Name>
-      <Metal>Copper</Metal>
-      <Weight>14</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Coulomb</Name>
-      <Metal>Platinum</Metal>
-      <Weight>1</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Necklace</Name>
-      <Metal>Platinum</Metal>
-      <Weight>10</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Coulomb</Name>
-      <Metal>Silver</Metal>
-      <Weight>7</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Coulomb</Name>
-      <Metal>Platinum</Metal>
-      <Weight>5</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Coulomb</Name>
-      <Metal>Palladium</Metal>
-      <Weight>14</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Coulomb</Name>
-      <Metal>Silver</Metal>
-      <Weight>13</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Coulomb</Name>
-      <Metal>Copper</Metal>
-      <Weight>13</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-    <JewelryDecoration>
-      <Name>Necklace</Name>
-      <Metal>Platinum</Metal>
-      <Weight>6</Weight>
-      <Price>0</Price>
-    </JewelryDecoration>
-  </Jewelries1>
 </JewelryDecoration>

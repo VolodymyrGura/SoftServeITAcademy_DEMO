@@ -18,6 +18,8 @@ namespace SoftServeITAcademy_DEMO
         [DataMember]
         private List<JewelryStore> stores;
 
+        string fileNames = @"D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\JewelryStore.txt";
+
         public string Address { get; set; }
 
         public int Amount { get; set; }
@@ -91,35 +93,30 @@ namespace SoftServeITAcademy_DEMO
             }
         }
 
-        //public void Read()
-        //{
-        //    List<string> phones = new List<string>();
-        //    string line;
-        //    string fileNames = @"D:\ATQC\C#\Labs\SoftServeITAcademy_DEMO\SoftServeITAcademy_DEMO\JewelryStore.txt";
-        //    using (StreamReader sr = new StreamReader(fileNames))
-        //    {
-
-        //        while ((line = sr.ReadLine()) != null)
-        //        {
-        //            this.jewelry.Add(line);
-        //            // Console.WriteLine(line);
-        //        }
-        //    }
-        //}
-
-        //public void Print()
-        //{
-        //    foreach (string l in jewelry)
-        //    {
-        //        Console.WriteLine(l);
-        //    }
-        //}
-
-        //public void Printy()
-        //{
-        //    Console.WriteLine($"Adress {this.address} Amount {this.amount} ");
-        //}
+        public void Read(string fileNames)
+        {
+            string line;
+            using (StreamReader sr = new StreamReader(fileNames))
+            {
+                while ((line = sr.ReadLine()) != null)
+                {
+                    //this.stores.Add(line);
+                    // Console.WriteLine(line);
+                }
+            }
+        }
 
 
+
+        public void PrintJewelryDecorationAmountLessThan(double amount)
+        {
+            foreach (var j in this.stores)
+            {
+                if (j.amount < 500)
+                {
+                    j.Print();
+                }
+            }
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 
 namespace SoftServeITAcademy_DEMO
 {
-    class Program
+  public class Demo
     {
         static void Main(string[] args)
         {
@@ -21,7 +21,6 @@ namespace SoftServeITAcademy_DEMO
             Stream file = new FileStream("store.json", FileMode.Create);
             DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(JewelryStore));
             ser.WriteObject(file, jewelryStore);
-
 
             JewelryDecoration jewelryDecoration = new JewelryDecoration();
             jewelryDecoration.GetRandomJewelry(10);
