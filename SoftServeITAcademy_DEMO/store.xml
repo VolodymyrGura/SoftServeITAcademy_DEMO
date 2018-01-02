@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<JewelryStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Earrings</Name>
+  <Metal>Gold</Metal>
+  <Weight>0</Weight>
+  <Price>0</Price>
+  <Amount>0</Amount>
+</JewelryStore>
